@@ -1,6 +1,5 @@
 .skillsBlock {
-    background-color: lightpink;
-    padding-bottom: 70px;
+    padding: 10px 10px 50px;
 
     .skillsContainer {
         flex-direction: column;
@@ -8,7 +7,6 @@
         flex-wrap: wrap;
 
         .skills {
-            border: 1px solid black;
             width: 100%;
             display: flex;
             justify-content: space-between;
