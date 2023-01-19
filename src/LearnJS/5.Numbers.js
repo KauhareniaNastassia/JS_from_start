@@ -62,3 +62,49 @@ function randomInteger(min, max) {
 alert(randomInteger(min, max))*/
 
 
+//===========STRINGS===========
+
+/*function ucFirst(name) {
+    if (!name) return name
+
+    return name[0].toUpperCase() + name.slice(1)
+
+}
+alert(ucFirst('вася'))*/
+
+
+
+/*function checkSpam(str) {
+    if (str.toLowerCase().includes('viagra') || str.toLowerCase().includes('xxx') ) {
+        return true
+    } else {
+        return false
+    }
+
+}
+
+alert(checkSpam('buy ViAgRA now') == true)
+alert(checkSpam('free xxxxx') == true)
+alert(checkSpam("innocent rabbit") == false)*/
+
+
+/*
+function truncate(str, maxlength) {
+    if (str.length > maxlength) {
+        return str.slice(0, maxlength-3) + '...'
+    } else {
+        return str
+    }
+}
+*/
+
+/*
+function extractCurrencyValue(str) {
+    return +str.slice(1)
+}
+*/
+
+
+//===========ARRAY===========
+
+
