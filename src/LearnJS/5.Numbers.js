@@ -107,4 +107,42 @@ function extractCurrencyValue(str) {
 
 //===========ARRAY===========
 
+/*
+let styles = ['Джаз', 'Блюз']
 
+styles.push('Поп')
+alert(styles)
+
+styles[Math.floor((styles.length - 1) / 2)] = 'Классика'
+
+alert(styles.shift())
+
+styles.unshift('Рэп', 'Рок-н-ролл')*/
+
+
+
+
+function sumInput(){
+
+    let arr = []
+
+    while (true) {
+
+        let n = +prompt("Введите число", 0);
+
+        if (n === "" || n === null || !isFinite(n)) break;
+
+        arr.push(n);
+    }
+
+
+    let sum = 0
+
+    for (let n of arr) {
+      sum += n
+    }
+
+    return sum
+}
+
+alert(sumInput())
